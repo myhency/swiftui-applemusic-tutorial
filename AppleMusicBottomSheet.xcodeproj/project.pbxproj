@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1A0D1EAC29DABC9D00911118 /* AppleMusicBottomSheetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1EAB29DABC9D00911118 /* AppleMusicBottomSheetApp.swift */; };
-		1A0D1EAE29DABC9D00911118 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1EAD29DABC9D00911118 /* ContentView.swift */; };
+		1A0D1EAE29DABC9D00911118 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1EAD29DABC9D00911118 /* Home.swift */; };
 		1A0D1EB029DABC9E00911118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0D1EAF29DABC9E00911118 /* Assets.xcassets */; };
 		1A0D1EB329DABC9E00911118 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0D1EB229DABC9E00911118 /* Preview Assets.xcassets */; };
 		1A0D1EBD29DABC9E00911118 /* AppleMusicBottomSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1EBC29DABC9E00911118 /* AppleMusicBottomSheetTests.swift */; };
 		1A0D1EC729DABC9E00911118 /* AppleMusicBottomSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1EC629DABC9E00911118 /* AppleMusicBottomSheetUITests.swift */; };
 		1A0D1EC929DABC9E00911118 /* AppleMusicBottomSheetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1EC829DABC9E00911118 /* AppleMusicBottomSheetUITestsLaunchTests.swift */; };
+		1A0D1ED729DADD5100911118 /* ExpandedBottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1ED629DADD5100911118 /* ExpandedBottomSheet.swift */; };
+		1A0D1ED929DADDC700911118 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0D1ED829DADDC700911118 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		1A0D1EA829DABC9D00911118 /* AppleMusicBottomSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicBottomSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0D1EAB29DABC9D00911118 /* AppleMusicBottomSheetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicBottomSheetApp.swift; sourceTree = "<group>"; };
-		1A0D1EAD29DABC9D00911118 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A0D1EAD29DABC9D00911118 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1A0D1EAF29DABC9E00911118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0D1EB229DABC9E00911118 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A0D1EB829DABC9E00911118 /* AppleMusicBottomSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMusicBottomSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		1A0D1EC229DABC9E00911118 /* AppleMusicBottomSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMusicBottomSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0D1EC629DABC9E00911118 /* AppleMusicBottomSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicBottomSheetUITests.swift; sourceTree = "<group>"; };
 		1A0D1EC829DABC9E00911118 /* AppleMusicBottomSheetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusicBottomSheetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A0D1ED629DADD5100911118 /* ExpandedBottomSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedBottomSheet.swift; sourceTree = "<group>"; };
+		1A0D1ED829DADDC700911118 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,9 @@
 		1A0D1EAA29DABC9D00911118 /* AppleMusicBottomSheet */ = {
 			isa = PBXGroup;
 			children = (
+				1A0D1ED529DAD59700911118 /* View */,
 				1A0D1EAB29DABC9D00911118 /* AppleMusicBottomSheetApp.swift */,
-				1A0D1EAD29DABC9D00911118 /* ContentView.swift */,
+				1A0D1ED829DADDC700911118 /* ContentView.swift */,
 				1A0D1EAF29DABC9E00911118 /* Assets.xcassets */,
 				1A0D1EB129DABC9E00911118 /* Preview Content */,
 			);
@@ -125,6 +130,15 @@
 				1A0D1EC829DABC9E00911118 /* AppleMusicBottomSheetUITestsLaunchTests.swift */,
 			);
 			path = AppleMusicBottomSheetUITests;
+			sourceTree = "<group>";
+		};
+		1A0D1ED529DAD59700911118 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A0D1EAD29DABC9D00911118 /* Home.swift */,
+				1A0D1ED629DADD5100911118 /* ExpandedBottomSheet.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0D1EAE29DABC9D00911118 /* ContentView.swift in Sources */,
+				1A0D1ED729DADD5100911118 /* ExpandedBottomSheet.swift in Sources */,
+				1A0D1EAE29DABC9D00911118 /* Home.swift in Sources */,
+				1A0D1ED929DADDC700911118 /* ContentView.swift in Sources */,
 				1A0D1EAC29DABC9D00911118 /* AppleMusicBottomSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +471,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
